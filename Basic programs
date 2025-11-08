@@ -1,0 +1,162 @@
+//[1]sum and average of three numbers
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,sum,avg;
+    cout << "Enter the three numbers : ";
+    cin >>a>>b>>c;
+    sum=a+b+c;
+    avg=(sum)/3;
+    cout<<"The sum of the numbers is : "<<sum;
+    cout<<"\nThe average of the numbers is : "<<avg;
+}
+
+
+//[2]To find positive or negative
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cout<<"Enter the number : ";
+    cin>>a;
+    if(a>0)
+    cout<<"The given number is positive!";
+    else if (a<0)
+    cout<<"The given number is negative!";
+    else
+    cout<<"The given number is zero!";
+}
+
+
+//[3]To find odd or even
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cout<<"Enter a number : ";
+    cin>>a;
+    if(a%2==0)
+    cout<<"The number is even!";
+    else
+    cout<<"The number is odd!";
+}
+
+
+//[4]find biggest among two numbers
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cout<<"Enter the two numbers : ";
+    cin>>a>>b;
+    if(a>b)
+    cout<<"The"<<a<<"is greater than"<<b<<"!";
+    else
+    cout<<"The"<<b<<"is greater than"<<a<<"!";
+}
+
+
+//[5]To find biggest among three
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cout<<"Enter the three numbers : ";
+    cin>>a>>b>>c;
+    if(a>b & a>c)
+    cout<<"The 'a' is greater than 'b' and 'c' !";
+    else if(b>a & b>c)
+    cout<<"The 'b' is greater than 'a' and 'c' !";
+    else
+    cout<<"The 'c' is greater than 'a' and 'b' !";
+}
+
+
+//[6]The natural numbers from 1to10
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"Enter the number of terms : ";
+    cin>>n;
+    for(int i=0;i<=n;i++)
+    cout<<i<<"  ";
+}
+
+
+//[7]Sum of the natural numbers 
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,sum=0;
+    cout<<"Enter the no.of terms : ";
+    cin>>n;
+    for(int i=0;i<=n;i++)
+    sum+=i;
+    cout<<"The sum of the natural numbers is : "<<sum;
+}
+
+
+//[8]Sum of the squares of the natural numbers
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,sum=0;
+    cout<<"Enter the no.of terms : ";
+    cin>>n;
+    for(int i=0;i<=n;i++)
+    sum+=(i*i);
+    cout<<"The sum of the natural numbers is : "<<sum;
+}
+
+
+//[9.1]Swaping of two numbers with temporary variable
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, b, temp;
+    cout << "Enter the two numbers: ";
+    cin >> a >> b;
+
+    cout << "Before swapping: a = " << a << ", b = " << b << endl;
+
+    temp = a;
+    a = b;
+    b = temp;
+
+    cout << "After swapping: a = " << a << ", b = " << b << endl;
+
+    return 0;
+}
+
+
+//[9.2]without temporary
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, b, temp;
+    cout << "Enter the two numbers: ";
+    cin >> a >> b;
+
+    cout << "Before swapping: a = " << a << ", b = " << b << endl;
+
+    a=a+b;
+    b=a-b;
+    a=a-b;
+
+    cout << "After swapping: a = " << a << ", b = " << b << endl;
+
+    return 0;
+}
