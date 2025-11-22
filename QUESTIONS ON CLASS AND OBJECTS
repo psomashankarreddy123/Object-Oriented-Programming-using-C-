@@ -1,0 +1,271 @@
+235. Bank Account Class: Create a C++ class representing a bank account with functionalities such as deposit, withdrawal, and balance inquiry.
+Sample Input:
+Account Number: 1234567890
+Account Holder Name: John Doe
+Balance: 5000
+Deposits: 2000
+Withdraw: 1000
+Sample Output:
+Account Number: 1234567890
+Account Holder Name: John Doe
+Balance: 6000
+
+236. Student Record System: Design a class to manage student records including data such as name, ID, and grades. Implement functions to calculate the average grade and display student information.
+Sample Input:
+Student Name: Jane Doe
+Student ID: 12345
+Grades: 85.5 90 87 92.5
+Sample Output: 
+Average Grade: 88.75
+
+237. Employee Management: Develop a class for an employee with attributes like name, salary, and employee ID. Include methods to raise the salary and display employee details.
+Sample Input:
+Employee Name: John Doe
+Employee ID: E12345
+Salary: 10000
+Raise Salary by: 5000
+Sample Output:
+Employee Name: John Doe
+Employee ID: E12345
+Salary: 15000
+
+238. Geometry Figures: Build a class hierarchy for various geometric figures (circle, rectangle, triangle) with respective properties and methods to calculate area and perimeter.
+Sample Input:
+circle_r=5
+rectangle l = 4,  w = 6
+triangle b=3, h=4
+for perimeter a=3,b=4 and c=5
+
+Sample Output:
+Circle - Area: 78.5398, Perimeter: 31.4159
+Rectangle - Area: 24, Perimeter: 20
+Triangle - Area: 6, Perimeter: 12
+
+239. Library Management System: Create a class for a library system that manages books, including attributes like book name, author, and availability. Implement functions for issuing and returning books.
+Sample Input:
+// Creating an instance of the Library class
+Library library;
+
+// Adding books to the library
+library.addBook("The Great Gatsby", "F. Scott Fitzgerald");
+library.addBook("To Kill a Mockingbird", "Harper Lee");
+
+// Displaying all books in the library
+library.displayBooks();
+
+// Issuing a book
+library.issueBook("The Great Gatsby");
+library.displayBooks();
+
+// Returning a book
+library.returnBook("The Great Gatsby");
+library.displayBooks();
+
+Sample Output:
+Books in the library:
+Book Name: The Great Gatsby, Author: F. Scott Fitzgerald, Availability: Available
+Book Name: To Kill a Mockingbird, Author: Harper Lee, Availability: Available
+
+Books in the library:
+Book Name: To Kill a Mockingbird, Author: Harper Lee, Availability: Available
+
+Books in the library:
+Book Name: The Great Gatsby, Author: F. Scott Fitzgerald, Availability: Available
+Book Name: To Kill a Mockingbird, Author: Harper Lee, Availability: Available
+
+240. Car Rental System: Design a class to represent cars for a rental service, including details like model, availability, and rental cost per day. Implement methods for booking and returning cars.
+Sample Input:
+Enter car model: Toyota Camry
+Enter rental cost per day: 50
+Sample Output:
+Available Cars in the Rental System:
+Car Model: Toyota Camry, Rental Cost Per Day: 50, Availability: Available
+
+241. Music Player: Construct a class representing a music player with functionalities for playing, pausing, and stopping songs. Include attributes like song name and artist.
+Sample Input:
+Enter song name: Shape of You
+Enter artist name: Ed Sheeran
+Sample Output:
+Now playing: Shape of You by Ed Sheeran
+
+Sample Input:
+pause
+Sample Output:
+Song paused
+
+Sample Input:
+stop
+Sample Output:
+Song stop
+
+242. Inventory Management: Develop a class for inventory management in a store, keeping track of items, their quantity, and methods for adding or removing stock.
+Sample Input:
+Adding new item to inventory.
+Enter item name: Laptop
+Enter quantity: 10
+Sample Output:
+Inventory updated.
+Item: Laptop, Quantity: 10
+
+Sample Input for removing stock:
+Removing stock from inventory.
+Enter item name: Laptop
+Enter quantity to remove: 3
+Sample Output for removing stock:
+Inventory updated.
+Item: Laptop, Quantity: 7
+
+243. Shape Hierarchy: Create a hierarchy of shapes (e.g., square, circle, triangle) using a base class and derive specific shapes with methods to calculate area and display shape properties.
+Sample Input:
+Enter the dimensions of the Square:
+Side: 5
+Enter the dimensions of the Circle:
+Radius: 4
+Enter the dimensions of the Triangle:
+Base: 6
+Height: 4
+Sample Output:
+Shape: Square
+Side: 5
+Area: 25
+Shape: Circle
+Shape: Triangle
+Base: 6
+Height: 4
+Area: 12
+Radius: 4
+Area: 50.2655
+
+244. Online Shopping Cart: Design a class for an online shopping cart that includes products, their prices, and quantities. Implement functions to add items, remove items, and calculate the total cost.
+
+Sample Input:
+Adding items to the cart.
+Item: Laptop
+Price: 1000
+Quantity: 2
+
+Sample Output:
+Item added to cart: Laptop, Price: 1000, 
+Quantity: 2
+
+Sample Input for removing items:
+Removing items from the cart.
+Item: Laptop
+Quantity to remove: 1
+Sample Output for removing items:
+Item removed from cart: Laptop, Remaining Quantity: 1
+
+Total Cost of Items in Cart: 1000
+
+245. School Management System: Develop a class hierarchy to manage a school system. Create classes for students, teachers, courses, and implement functionalities to enroll students, assign teachers, etc.
+Sample Input:
+Adding a new student.
+Student Name: John Doe
+Student ID: 12345
+Adding a new teacher.
+Teacher Name: Jane Smith
+Teacher ID: T1001
+Enrolling a student in a course.
+Student ID: 12345
+Course ID: CSCI101
+Assigning a teacher to a course.
+Teacher ID: T1001
+Course ID: CSCI101
+
+Sample Output:
+Student added successfully: John Doe, Student ID: 12345
+Teacher added successfully: Jane Smith, Teacher ID: T1001
+Student enrolled in course: CSCI101
+Teacher assigned to course: CSCI101
+
+246.
+Movie Database: Design a class representing a movie database with attributes like title, director, genre, and release year. Include methods to add, delete, and display movie details.
+
+Sample Input:
+Adding a new movie to the database.
+Title: Inception
+Director: Christopher Nolan
+Genre: Science Fiction
+Release Year: 2010
+
+Displaying movie details.
+Title: Inception
+
+Deleting a movie from the database.
+Title: Inception
+
+Sample Output:
+Movie added successfully:
+Title: Inception
+Director: Christopher Nolan
+Genre: Science Fiction
+Release Year: 2010
+
+Movie Details:
+Title: Inception
+Director: Christopher Nolan
+Genre: Science Fiction
+Release Year: 2010
+
+Movie deleted successfully: Inception
+
+247. Banking System with Multiple Accounts: Extend the bank account class to handle multiple accounts, allowing functions for transfer of funds between accounts and viewing all account details.
+
+Sample Input:
+Creating multiple bank accounts.
+Creating Account 1.
+Account Number: 1234567890
+Account Holder Name: John Doe
+Initial Balance: 5000
+
+Creating Account 2.
+Account Number: 0987654321
+Account Holder Name: Jane Smith
+Initial Balance: 3000
+
+Transferring funds between accounts.
+From Account: 1234567890
+To Account: 0987654321
+Amount: 2000
+
+Sample Output:
+Accounts created successfully.
+Account 1:
+Account Number: 1234567890
+Account Holder Name: John Doe
+Balance: 5000
+
+Account 2:
+Account Number: 0987654321
+Account Holder Name: Jane Smith
+Balance: 3000
+
+Funds transferred successfully.
+Updated Account 1 Balance: 3000
+Updated Account 2 Balance: 5000
+
+
+All Account Details:
+Account 1:
+Account Number: 1234567890
+Account Holder Name: John Doe
+Balance: 3000
+
+Account 2:
+Account Number: 0987654321
+Account Holder Name: Jane Smith
+Balance: 5000
+
+248. Online Reservation System: Create a class for an online reservation system (e.g., for flights, concerts) with methods to book, cancel, and display reservations.
+
+249. Social Media Profile: Design a class for a social media profile, including attributes for user information and methods to add posts, manage friends, and display the user's profile.
+
+250. Hospital Management System: Construct a class system for managing a hospital, including classes for patients, doctors, and appointments. Implement functionalities to schedule appointments and manage patient records.
+
+251. Inventory Tracking System: Develop a class for inventory tracking in a warehouse or store, with functions for tracking items, managing stock levels, and displaying item details.
+
+252. Restaurant Ordering System: Create a class system to manage orders in a restaurant, including classes for menu items, customer orders, and bill generation.
+
+253. Vehicle Management System: Design a class structure to manage vehicles (cars, bikes, trucks) with attributes like make, model, and functionalities for renting or selling vehicles.
+
+254. Gaming System: Develop a class system for a gaming platform with classes for games, users, and scores. Include functionalities to add games, track user progress, and display high scores.
