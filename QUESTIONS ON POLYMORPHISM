@@ -1,0 +1,19 @@
+59. Create a base class called Person with a virtual function work(). Derive two classes Employee and Manager from the base class. Implement the work() function for each class.
+
+58. Create a base class called Animal with a virtual function eat(). Derive two classes Herbivore and Carnivore from the base class. Implement the eat() function for each class.
+
+57. Create a base class called Shape with virtual functions area() and volume(). Derive two classes Sphere and Cylinder from the base class. Implement the area() and volume() functions for each class.
+
+56. Create a base class called Person with a virtual function greet(). Derive two classes Student and Teacher from the base class. Implement the greet() function for each class.
+
+55. Create a base class called Animal with a virtual function move(). Derive two classes Bird and Fish from the base class. Implement the move() function for each class.
+
+54. Create a base class called Shape with virtual functions area() and perimeter(). Derive two classes Rectangle and Triangle from the base class. Implement the area() and perimeter() functions for each class.
+
+53. Create a base class called Vehicle with a virtual function drive(). Derive two classes Car and Truck from the base class. Implement the drive() function for each class.
+
+52. Create a base class called Employee with a virtual function calculatePay(). Derive two classes Manager and Engineer from the base class. Implement the calculatePay() function for each class.
+
+51. Create a base class called Animal with a virtual function speak(). Derive two classes Cat and Dog from the base class. Implement the speak() function for each class.
+
+50. Create a base class called Shape with a virtual function area(). Derive two classes Rectangle and Circle from the base class. Implement the area() function for each class.
