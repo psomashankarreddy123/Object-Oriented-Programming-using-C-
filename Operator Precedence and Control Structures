@@ -4,3 +4,35 @@
 110. Write a C++ program to create a dynamic two-dimensional array using pointers and display its values.
 109. Write a C++ program to create a dynamic array using pointers and display its values.
 108. Write a C++ program to merge two arrays into a single array.
+107. Write a C++ program to find the number of occurrences of a value in an array.
+106. Write a C++ program to find the second largest element in an array.
+105. Write a C++ program to find the average of elements in an array.
+104. Write a C++ program to find the sum of elements in an array.
+103. Write a C++ program to delete an element from an array at a specific position.
+102. Write a C++ program to insert an element into an array at a specific position.
+101. Write a C++ program to reverse the elements of an array.
+33.
+Write a program to print the following pattern using nested for loops: 
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+
+34. Write a program to print the following pattern using nested for loops:
+    1
+   121
+  12321
+ 1234321
+123454321
+
+35. Write a program to print the following pattern using nested for loops: 
+    1
+   232
+  34543
+ 4567654
+567898765
